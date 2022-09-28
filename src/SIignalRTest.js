@@ -53,9 +53,9 @@ const SIignalRTest = () => {
                         'title': 'Notificacion prueba',
                         'date': '28/09/2022',
                         'description': 'prueba',
-                        'notificationId': 'BEEB8518-5A4F-4D2C-B565-FAF878BCA7D2',
-                        'notificationTypeId': 'C7CE17B8-12CD-4EE3-A07B-F80D8FCAE26D',
-                        'accountId': '3fdbc978-051a-4eab-a0fb-cf3366cb7c72'
+                        'notificationId': 'BEEB8518-5A4g-4D2C-B565-FAF878BCA7D2',
+                        'notificationTypeId': 'C7CE17B9-12CD-4EE3-A07B-F80D8FCAE26D',
+                        'accountId': '3fdbc978-051a-4eax-a0fb-cf3366cb7c72'
                     })
                 }).then(async response => {
                     var result = await response.json()
