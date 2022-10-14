@@ -17,7 +17,7 @@ const SIignalRTest = () => {
         setConnection1(newConnection1);
 
         const newConnection2 = new HubConnectionBuilder()
-            .withUrl('https://localhost:44327/notification', { accessTokenFactory: () => token })a
+            .withUrl('https://localhost:44327/notification', { accessTokenFactory: () => token })
             .withAutomaticReconnect()
             .build();
         setConnection2(newConnection2);
